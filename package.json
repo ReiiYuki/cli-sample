@@ -1,0 +1,25 @@
+{
+  "name": "cli-sample",
+  "private": true,
+  "version": "1.0.1",
+  "type": "module",
+  "bin": {
+    "create-something1": "dist/index.cjs"
+  },
+  "scripts": {
+    "build": "tsc && vite build"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "@types/node": "^20.10.5",
+    "commander": "^11.1.0",
+    "execa": "^8.0.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.7.0"
+  },
+  "dependencies": {
+    "inquirer": "^9.2.12",
+    "react": "^17.0.2"
+  }
+}
